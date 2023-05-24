@@ -1,0 +1,59 @@
+.card { 
+background-color: rgb(223, 220, 220);
+border-radius: 10px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+height: 400px;
+width: 300px;
+overflow: auto;
+margin-right: 20px;
+flex-shrink: 0;
+}
+
+.cardAddItem {
+    background-color: rgb(223, 220, 220);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 20%; 
+    width: 20%;
+    flex-shrink: 0;
+}
+
+
+.heading{
+  text-align: center;
+  background-color: rgb(177, 177, 177);
+  padding-bottom: 1%;
+}
+
+.addIcon img {
+    width: 20%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 40%;
+    cursor: pointer;
+}
+
+.listItem{
+    display: flex;
+    margin: 2%;
+    background-color: rgb(202, 199, 199);
+    padding: 2%;
+}
+
+.listItem input {
+    margin-right: 4%;
+}
+
+.addBtn{
+    padding: 1%;
+    border-radius: 5px ;
+    outline: none;
+}
+
+.addTaskInput{
+    padding: 1%;
+    outline: none;
+}
+

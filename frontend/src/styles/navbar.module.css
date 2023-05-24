@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(177, 177, 177);
+    padding: 0.7%;
+}
+
+.btn{
+background-color: #7c7c7c;
+    /* Green */
+    border: none;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    padding: 2%;
+    width: 40%;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    width:15%;
+}
